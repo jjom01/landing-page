@@ -62,7 +62,7 @@ img.logo{
 .sign-up{
     background-color: #3882F6;
     padding: 8px;
-    width: fit-content;
+    min-width: fit-content;
     border-radius: 8px;
 }
 
@@ -166,7 +166,7 @@ img{
 .sign-up-sub{
     border: 2px solid, white;
     padding: 8px;
-    width: fit-content;
+    min-width: fit-content;
     border-radius: 8px;
 }
 
