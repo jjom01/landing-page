@@ -6,6 +6,7 @@ body{
 }
 
 .blue, .footer{
+    width: 100%;
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -28,29 +29,18 @@ img.logo{
     gap: 12px;
 }
 
-.sign-up{
-    background-color: #3882F6;
-    padding: 8px;
-    width: fit-content;
-    border-radius: 8px;
-}
-
 .second-s{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    margin: 16px;
+    gap: 32px;
+    margin: 32px;
 }
 
 .left-second{
     display: flex;
     flex-direction: column;
     gap: 8px;
-}
-
-img{
-    height: 300px;
 }
 
 .hero{
@@ -65,10 +55,122 @@ img{
     font-style: normal;
     font-weight: 100;
     max-width: 400px;
+    text-align: justify;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    padding: 8px;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+img{
+    height: 300px;
+    border-radius: 8px;
+}
+
+.third-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin: 32px;
+}
+
+.third-header{
+    margin: 16px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.sqr-img-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100px;
+    text-align: center;
+}
+
+.sqr-img-txt img{
+    height: 100px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 2px solid;
+    border-color: #3882F6;
+}
+
+.fourth-s{
+    background-color: #E5E7EB;
+    padding: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.author{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: right;
+}
+
+.fifth-s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-fifth{
+    background-color: #3882F6;
+    margin: 64px;
+    padding: 42px;
+    max-width: 800px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 64px;
+    color: #F9FAF8;
+}
+
+.cta{
+    font-weight: 900;
+    font-size: larger;
+}
+
+.sign-up-sub{
+    border: 2px solid, white;
+    padding: 8px;
+    width: fit-content;
+    border-radius: 8px;
 }
 
 .footer{
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: small;
     font-weight: 100;
 }
-
