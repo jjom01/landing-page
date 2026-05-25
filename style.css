@@ -9,7 +9,7 @@ body{
 
 .blue, .footer{
     width: 100%;
-    background-color: #1F2937;
+    background-color: #570c61;
     color: #F9FAF8;
 }
 
@@ -64,7 +64,7 @@ img.logo{
 }
 
 .sign-up{
-    background-color: #3882F6;
+    background-color: #7e0808;
     padding: 8px;
     max-width: fit-content;
     border-radius: 8px;
@@ -154,7 +154,7 @@ img{
 }
 
 .sub-fifth{
-    background-color: #3882F6;
+    background-color: #470929;
     margin: 64px;
     padding: 42px;
     max-width: 800px;
